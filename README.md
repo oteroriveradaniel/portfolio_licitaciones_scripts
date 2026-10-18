@@ -10,7 +10,7 @@ Se utilizan scripts de Python para la carga inicial de datos desde un formato CS
 
 ## Instalación
 
-1. Descargar los CSV y guardarlos en una carpeta CSV en la raíz del proyecto.
+1. Descargar los CSV y guardarlos en una carpeta CSV dentro de la carpeta src del proyecto.
 2. Instalar los requirements.
 ```python
 pip install -r requirements.txt
