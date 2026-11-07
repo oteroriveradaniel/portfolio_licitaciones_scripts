@@ -8,7 +8,7 @@ def get_connection():
 
 def load_data(data, connection, collection):
     try: 
-        database = connection.get_database(os.getenv("MONGODB_DATABASE"))
+        database = connection.get_database("licitaciones")
         db_collection = database.get_collection(collection)
 
         num_items = db_collection.estimated_document_count()
